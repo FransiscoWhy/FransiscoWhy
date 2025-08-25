@@ -12,7 +12,7 @@
 
 ---
 
-<h4 align="Left">Website Programmer, AI Enthusiast | Vulnerability Seeker</h4>
+<h4 align="Left">Website Programmer, AI Enthusiast</h4>
 
 - I’m currently working on: **Data Mining, Artificial Intelligence, Website**  
 - How to reach me: **fransiscowahyu2002@gmail.com**
