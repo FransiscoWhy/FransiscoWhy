@@ -19,28 +19,31 @@
 
 ---
 
-```python
-class Person:
-    def __init__(self, name, hobbies, campus):
-        self.name = name
-        self.hobbies = hobbies
-        self.campus = campus
+```javascript
+class Person {
+  constructor(name, hobbies, campus) {
+    this.name = name;
+    this.hobbies = hobbies;
+    this.campus = campus;
+  }
 
-    def introduce(self):
-        introduction = f"Hello, my name is {self.name}. "
-        hobby_list = ", ".join(self.hobbies)
-        introduction += f"My hobbies include {hobby_list}. "
-        introduction += f"I am currently studying at {self.campus}."
-        return introduction
+  introduce() {
+    let introduction = `Hello, my name is ${this.name}. `;
+    let hobbyList = this.hobbies.join(", ");
+    introduction += `My hobbies include ${hobbyList}. `;
+    introduction += `I am currently studying at ${this.campus}.`;
+    return introduction;
+  }
+}
 
-fransisco = Person(
-    name="Fransisco Wahyu Syahbani",
-    hobbies=["Gaming", "Studying", "Coffee"],
-    campus="Telkom University"
-)
+const fransisco = new Person(
+  "Fransisco Wahyu Syahbani",
+  ["Gaming", "Studying", "Coffee"],
+  "Telkom University"
+);
 
-introduction = fransisco.introduce()
-print(introduction)
+const introduction = fransisco.introduce();
+console.log(introduction);
 ```
 
 *Languages and Tools:*
