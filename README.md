@@ -42,6 +42,11 @@ fransisco = Person(
 introduction = fransisco.introduce()
 print(introduction)
 
+## Badge
+<div class="row">
+  <img src="https://tryhackme-badges.s3.amazonaws.com/Syndicats.png" alt="TryHackMe">
+</div>
+
 *Languages and Tools:*
 
 <p align="left">
