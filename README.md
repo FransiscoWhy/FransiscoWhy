@@ -14,7 +14,7 @@
 
 <h4 align="Left">Website Programmer, AI Enthusiast</h4>
 
-- I’m currently working on: **Data Mining, Artificial Intelligence, Website**  
+- I’m currently working on: **Data Mining, Artificial Intelligence, Website Developer**  
 - How to reach me: **fransiscowahyu2002@gmail.com**
 
 ---
